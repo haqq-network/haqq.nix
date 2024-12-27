@@ -1,0 +1,122 @@
+{
+  "1.8.2": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.8.2/haqq_1.8.2_linux_amd64.tar.gz",
+    "hash": "sha256-bGGaQVebLgS7/uUWg3yAakqkAItSTWuZArrF70BN+bo="
+  },
+  "1.8.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.8.1/haqq_1.8.1_linux_amd64.tar.gz",
+    "hash": "sha256-0H69u03/cPiYSQnjrcKKbFTYBy6/RSF6ilbKWu+7Mws="
+  },
+  "1.8.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_linux_amd64.tar.gz",
+    "hash": "sha256-6E0FzAix0EzoNr4Km+D2bskgucu3KC23maKOqtzrbkA="
+  },
+  "1.7.8": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_linux_amd64.tar.gz",
+    "hash": "sha256-xDw218t5OeIwi6sl5Q1G0ZYNO4d+GHx6Fx1kyvFAk0I="
+  },
+  "1.7.7": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_linux_amd64.tar.gz",
+    "hash": "sha256-A/hF/bGX8+s0ocoXQeDG7/wtGUahSRBNIpIvaHU/ewk="
+  },
+  "1.7.6": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.6/haqq_1.7.6_linux_amd64.tar.gz",
+    "hash": "sha256-z8IzTEbgzhVVOhIeVXM5ilokZwlnKKPDGKeR+iMBzEE="
+  },
+  "1.7.5": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.5/haqq_1.7.5_linux_amd64.tar.gz",
+    "hash": "sha256-uooV5vcVHKepiQhk9cYvGXg/UdlLCLF48XxFXkyJZKc="
+  },
+  "1.7.4": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.4/haqq_1.7.4_linux_amd64.tar.gz",
+    "hash": "sha256-wJbK9rOQqQSdD/jMb3TyMjytCF5DqoaCVJg9RdDIqOE="
+  },
+  "1.7.3": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.3/haqq_1.7.3_Linux_x86_64.tar.gz",
+    "hash": "sha256-itOV44cO5mFbtiTkeQicTXhxSRQvuaz/Lc/tBkICWRc="
+  },
+  "1.7.2": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.2/haqq_1.7.2_Linux_x86_64.tar.gz",
+    "hash": "sha256-I72BP9FdEGiOzrGk9z0bVH8czLO4lQqE7aDu2kp6MNY="
+  },
+  "1.7.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.1/haqq_1.7.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-zntfani6ggsF5rPp0XQVERblONyYnxiph7/udn+MEEU="
+  },
+  "1.7.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.7.0/haqq_1.7.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-rDSSHbh4JVBYOFCuGxaldICMKI6cuPuzO+6Jr8ijlkk="
+  },
+  "1.6.4": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.6.4/haqq_1.6.4_Linux_x86_64.tar.gz",
+    "hash": "sha256-/guHSnL6M50qgAD8lo932nJb9UZOygjxwVxNEXMpk3U="
+  },
+  "1.6.3": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.6.3/haqq_1.6.3_Linux_x86_64.tar.gz",
+    "hash": "sha256-XtYmBoZnQ4z1L8ooic6+Bjob5EALqsUGOg4ayeFPu3g="
+  },
+  "1.6.2": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.6.2/haqq_1.6.2_Linux_x86_64.tar.gz",
+    "hash": "sha256-GwiaqyO2YQS+4uaVptNdchJm8VezzGEdiIygwKwSyDM="
+  },
+  "1.6.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.6.1/haqq_1.6.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-Exjbvn30u+xsH399WuMTJNKP3sihZTvyARgqAbG6Sl0="
+  },
+  "1.6.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.6.0/haqq_1.6.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-P/02YCTEj6ul9vJ/dLmx5yCaRh9xHSYZnXSHek9ctnA="
+  },
+  "1.5.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.5.0/haqq_1.5.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-uYp2NUIOvoskV2+5I6wlbdHNTb/jStHFoMJsOmtYLdA="
+  },
+  "1.4.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.4.1/haqq_1.4.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-R6UA86gtxLyajn3afLAjqpP6pecMo9CbmPNTiCI8Cbo="
+  },
+  "1.4.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.4.0/haqq_1.4.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-6gsnsYVBJzMee47rAygUmX3OIj3+KjQ2fEy6AJ7vYBA="
+  },
+  "1.3.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.3.1/haqq_1.3.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-tNebjrWCD33XtbtrsCE3lVskayEuUKzS+NZSeTnY1Z8="
+  },
+  "1.3.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.3.0/haqq_1.3.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-0QnYW7y2093TtwVA0SvPkyYh9+b9wI1KfOT+In8BpmA="
+  },
+  "1.1.9": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.1.9/haqq_1.1.9_Linux_x86_64.tar.gz",
+    "hash": "sha256-bT2jLGQwbF0Wx29M88hcSyb2gMib9Ah7se+Brxu0JnM="
+  },
+  "1.2.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.2.1/haqq_1.2.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-wOfdTqN5Eij8FT+GOZgFM4kkvLlPqHjq6xsiW3yQYOM="
+  },
+  "1.2.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.2.0/haqq_1.2.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-VzSO105TmzeyHt97aOx7XZn0X1VTm9H5KllxdHCZVGs="
+  },
+  "1.1.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.1.0/haqq_1.1.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-o39kKYdPdK3OdbtS4mYtREviPGmYPBMq8Nd3b7BFHaA="
+  },
+  "1.0.3": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.0.3/haqq_1.0.3_Linux_x86_64.tar.gz",
+    "hash": "sha256-W36Nsq9M8kyxYGN4aVFt0ZzcTQwHu6f1TSlpYEBU2Ok="
+  },
+  "1.0.2": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.0.2/haqq_1.0.2_Linux_x86_64.tar.gz",
+    "hash": "sha256-FHpLIv4MlaSlwX1Rt3p1xtHyKaJQjMOS0MB7qERPb4Q="
+  },
+  "1.0.1": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.0.1/haqq_1.0.1_Linux_x86_64.tar.gz",
+    "hash": "sha256-eo7hM90PeS8bLs5DP7tZyQXUE8u5tDs7DWr73P5IM9I="
+  },
+  "1.0.0": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.0.0/haqq_1.0.0_Linux_x86_64.tar.gz",
+    "hash": "sha256-gDDpjZtNJ6OQGkjCkPSCi7vF3pLkqjpp16sEgq6m/cM="
+  }
+}
