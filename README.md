@@ -4,8 +4,8 @@ This repository aims to provide Nix and NixOS entrypoints for the Haqq
 ecosystem.
 
 > [!WARNING]
-> We only support `x86_64-linux` target. Support for anything over than that is
-> not planned at this point in time. Contributions are welcome.
+> Currently we only support the `x86_64-linux` target. Support for anything over
+> than that is not planned at this point in time. Contributions are welcome.
 
 ## Quick Start
 
@@ -14,20 +14,20 @@ ecosystem.
 > following our [official installation
 > instructions](https://docs.haqq.network/network/run-node/).
 
-Add `haqq.nix` to your `flake.nix` and import desired module. For example:
+Add the `haqq.nix` repository to your `flake.nix` inputs and import the desired
+module. For example:
 
 ``` nix
 {
-  description = "My Haqq node";
   inputs = {
-    haqq.url = "github:haqq-network/haqq.nix";
-    nixpkgs.follows = "haqq";
+    haqq-nix.url = "github:haqq-network/haqq.nix";
+    nixpkgs.follows = "haqq/nixpkgs";
   };
   outputs = inputs: {
-    nixosConfigurations.myHaqqNode = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.myHaqqNode = inputs.nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        inputs.haqq.nixosModules.haqqd
+        inputs.haqq-nix.nixosModules.haqqd
         ({ pkgs, ... }: {
           services.haqqd = {
             enable = true;
@@ -67,8 +67,8 @@ Add `haqq.nix` to your `flake.nix` and import desired module. For example:
 ```
 
 This will enable and launch a `haqqd.service` systemd service, which will
-download a latest pruned snapshot on the first start. You can look up available
-options in the source code for the module.
+download the latest pruned snapshot on the first start. You can look up all
+available options in the source code for the module.
 
 We plan on adding more documentation and guides in the future.
 
