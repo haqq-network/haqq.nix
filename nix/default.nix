@@ -1,4 +1,5 @@
-_: {
+{ lib, ... }:
+{
   imports = [
     ./modules
     ./overlays.nix
@@ -6,4 +7,6 @@ _: {
     ./partitions
     ./tests
   ];
+
+  systems = lib.systems.flakeExposed;
 }
