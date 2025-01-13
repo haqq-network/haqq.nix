@@ -1,0 +1,15 @@
+---
+name: Nix
+
+on:
+  pull_request_target:
+  push:
+    branches:
+      - master
+
+jobs:
+  check:
+    runs-on: [self-hosted, nixos]
+    steps:
+      - uses: actions/checkout@v4
+      - run: nix flake check

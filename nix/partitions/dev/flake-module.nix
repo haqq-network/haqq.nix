@@ -5,7 +5,11 @@
   imports = [ inputs.git-hooks-nix.flakeModule ];
 
   perSystem =
-    { config, pkgs, ... }:
+    {
+      config,
+      pkgs,
+      ...
+    }:
     {
       pre-commit.settings.hooks = {
         convco.enable = true;
