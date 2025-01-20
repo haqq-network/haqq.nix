@@ -1,8 +1,8 @@
-{ inputs, ... }:
+{ inputs, lib, ... }:
 {
-  systems = [ "x86_64-linux" ];
-
   imports = [ inputs.git-hooks-nix.flakeModule ];
+
+  systems = lib.systems.flakeExposed;
 
   perSystem =
     {
