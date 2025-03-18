@@ -20,11 +20,8 @@
 
       pre-commit.settings.hooks = {
         convco.enable = true;
-        deadnix.enable = true;
         editorconfig-checker.enable = true;
         markdownlint.enable = true;
-        nixfmt-rfc-style.enable = true;
-        statix.enable = true;
         treefmt.enable = true;
         typos = {
           enable = true;
