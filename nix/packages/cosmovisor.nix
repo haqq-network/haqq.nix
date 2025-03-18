@@ -39,7 +39,6 @@ buildGoModule rec {
       automates application binary switch at chain upgrades
     '';
     homepage = "https://docs.cosmos.network/main/build/tooling/cosmovisor";
-    changelog = "https://github.com/cosmos/cosmos-sdk/blob/tools/cosmovisor/v${version}/tools/cosmovisor/CHANGELOG.md";
     mainProgram = "cosmovisor";
   };
 }

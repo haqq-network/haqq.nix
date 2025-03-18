@@ -83,6 +83,7 @@ in
           will override any default values from that file.
         '';
         example = {
+          moniker = "haqq-on-nixos";
           p2p = {
             laddr = "tcp://0.0.0.0:26656";
             seeds = "";
@@ -119,10 +120,13 @@ in
       let
         generateTOML =
           name:
-          toml.generate "${name}.toml" (
-            lib.recursiveUpdate (lib.importTOML "${cfg.packages.config}/share/haqqd/config/${name}.toml")
-              cfg.settings.${name}
-          );
+          let
+            default = lib.importTOML "${cfg.packages.config}/share/haqqd/config/${name}.toml";
+          in
+          lib.pipe cfg.settings.${name} [
+            (lib.recursiveUpdate default)
+            (toml.generate "${name}.toml")
+          ];
       in
       {
         app = lib.mkOption {
@@ -165,7 +169,8 @@ in
       '';
       example = lib.literalExpression ''
         if [ ! -f "$DAEMON_HOME/.bootstrapped" ]; then
-          snapshot="$(curl -s "https://pub-70119b7efa294225aa1b869b2a15c7f4.r2.dev/index.json" | jq -r .pruned[0].link)"
+          index="https://pub-70119b7efa294225aa1b869b2a15c7f4.r2.dev/index.json"
+          snapshot="$(curl -s "$index" | jq -r .pruned[0].link)"
           wget -qO- "$snapshot" | \
             lz4 -d - | \
             tar -C "$DAEMON_HOME" -x -f -
@@ -182,9 +187,11 @@ in
       '';
       example = lib.literalExpression ''
         if [ ! -f "$DAEMON_HOME/.bootstrapped" ]; then
-          height="$(curl -s "https://rpc.tm.haqq.network/block" | jq -r '.result.block.header.height')"
+          block_url="https://rpc.tm.haqq.network/block"
+          height="$(curl -s "$block_url" | jq -r '.result.block.header.height')"
           trust_height="$((height - 3000))"
-          trust_hash="$(curl -s "https://rpc.tm.haqq.network/block?height=$trust_height" | jq -r '.result.block_id.hash')"
+          height_url="https://rpc.tm.haqq.network/block?height=$trust_height"
+          trust_hash="$(curl -s "$height_url" | jq -r '.result.block_id.hash')"
 
           jq -nR \
             --arg trust_height "$trust_height" \
@@ -271,9 +278,13 @@ in
 
         if [ ! -f "$DAEMON_HOME/.bootstrapped" ]; then
           haqqd init ${
+            # editorconfig-checker-disable
+            # TODO(azahi): File a nixfmt bug report about soft line width not respected for
+            # conditionals.
             if lib.hasAttr "moniker" cfg.settings.config then cfg.settings.config.moniker else "haqqd"
           } --chain-id "${
             if lib.hasAttr "chain-id" cfg.settings.client then cfg.settings.client.chain-id else "haqq_11235-1"
+            #  editorconfig-checker-enable
           }"
         fi
 
