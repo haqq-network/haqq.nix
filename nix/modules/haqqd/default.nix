@@ -284,7 +284,7 @@ in
             if lib.hasAttr "moniker" cfg.settings.config then cfg.settings.config.moniker else "haqqd"
           } --chain-id "${
             if lib.hasAttr "chain-id" cfg.settings.client then cfg.settings.client.chain-id else "haqq_11235-1"
-            #  editorconfig-checker-enable
+            # editorconfig-checker-enable
           }"
         fi
 
