@@ -23,10 +23,6 @@
         editorconfig-checker.enable = true;
         markdownlint.enable = true;
         treefmt.enable = true;
-        typos = {
-          enable = true;
-          pass_filenames = false;
-        };
       };
 
       treefmt.programs = {
