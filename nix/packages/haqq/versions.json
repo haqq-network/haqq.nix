@@ -1,4 +1,8 @@
 {
+  "1.8.3": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.8.3/haqq_1.8.3_linux_amd64.tar.gz",
+    "hash": "sha256-pXyasrlAUGLcnDcALfy3rlwtQkmKQ9Mk3rPSyjj+ihg="
+  },
   "1.8.2": {
     "url": "https://github.com/haqq-network/haqq/releases/download/v1.8.2/haqq_1.8.2_linux_amd64.tar.gz",
     "hash": "sha256-bGGaQVebLgS7/uUWg3yAakqkAItSTWuZArrF70BN+bo="
