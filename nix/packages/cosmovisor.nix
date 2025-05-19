@@ -2,6 +2,7 @@
   buildGoModule,
   fetchFromGitHub,
   installShellFiles,
+  lib,
 }:
 buildGoModule rec {
   pname = "cosmovisor";
@@ -39,6 +40,7 @@ buildGoModule rec {
       automates application binary switch at chain upgrades
     '';
     homepage = "https://docs.cosmos.network/main/build/tooling/cosmovisor";
+    license = builtins.attrValues { inherit (lib.licenses) gpl3 lgpl3; };
     mainProgram = "cosmovisor";
   };
 }
