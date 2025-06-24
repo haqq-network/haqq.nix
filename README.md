@@ -3,13 +3,13 @@
 This repository aims to provide Nix and NixOS entrypoints for the Haqq
 ecosystem.
 
-> \[!WARNING\]
+> [!WARNING]
 > Currently we only support the `x86_64-linux` target. Support for anything over
 > than that is not planned at this point in time. Contributions are welcome.
 
 ## Quick Start
 
-> \[!NOTE\]
+> [!NOTE]
 > A user must be somewhat proficient with Nix and NixOS. If not, please consider
 > following our [official installation
 > instructions](https://docs.haqq.network/network/run-node/).
