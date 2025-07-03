@@ -44,7 +44,7 @@ while read -r obj; do
         '{ $version: { url: $url, hash: $hash } }'
     )"
   )
-done < <(jq -c '.[]' <<<"$result")
+done < <(jq -c '.[] | select(.prerelease | not)' <<<"$result")
 
 dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
 jq --slurp 'add' <<<"${versions[*]}" >"$dir/versions.json"
