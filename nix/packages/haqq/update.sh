@@ -25,7 +25,7 @@ get_hash() {
     "$(nix-prefetch-url --type "$type" "$1")"
 }
 
-api="https://api.github.com/repos/haqq-network/haqq/releases"
+api="https://api.github.com/repos/haqq-network/haqq/releases?per_page=100"
 result="$(curl --fail -s ${GITHUB_TOKEN:+-u ":$GITHUB_TOKEN"} "$api")"
 
 declare -a versions
