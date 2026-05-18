@@ -134,5 +134,9 @@
   "1.9.3": {
     "url": "https://github.com/haqq-network/haqq/releases/download/v1.9.3/haqq_1.9.3_linux_amd64.tar.gz",
     "hash": "sha256-aTzNdV8cBTJzHU4k8bi55Kemn51+2MhsDgS14KbL2A0="
+  },
+  "1.9.4": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.9.4/haqq_1.9.4_linux_amd64.tar.gz",
+    "hash": "sha256-t/H4UbjVBxudaANS1eS1vz6nTtTzsGaKkQWlA03EiQc="
   }
 }
