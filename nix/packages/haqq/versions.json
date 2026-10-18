@@ -142,5 +142,9 @@
   "1.9.5": {
     "url": "https://github.com/haqq-network/haqq/releases/download/v1.9.5/haqq_1.9.5_linux_amd64.tar.gz",
     "hash": "sha256-ME+fIuO6VrjKXURxT5mwFqU9+bcXUXJbzLcQN7yA3hc="
+  },
+  "1.9.6": {
+    "url": "https://github.com/haqq-network/haqq/releases/download/v1.9.6/haqq_1.9.6_linux_amd64.tar.gz",
+    "hash": "sha256-LGTRWRuKIgFddqum9c8/VTRNkHtx2Zfyu7V5g6RNERA="
   }
 }
